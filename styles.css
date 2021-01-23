@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;700&display=swap');
+
+.container-page{
+    
+    width:100%;
+    max-width: 1440px;
+    margin: auto 
+}
+
+.container-header{
+    width:100%;
+    max-width: 969px;
+    margin: auto;
+}
+
+.container-header>h1{
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 64px;
+margin: 0;
+}
+
+.container-header>.header-encloser>p{
+font-family: Montserrat;
+font-style: italic;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #4F4F4F;
+width: 60%;
+    }
+
+.container-header>.header-encloser{
+    display: flex;
+    margin-bottom:30px ;
+    
+}
+
+.container-header>.header-encloser>.header-img-1{
+    margin: 10px;
+    padding-bottom: 30px;
+}
+.container-header>.header-img-2{
+width: 100%;
+height: auto;
+border-radius: 12px;
+max-width: 100%;
+}   
+
+.container-body{
+    width:100%;
+    max-width: 735px;
+}
+
+.container-body>h2{
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+color: #333333;
+}
+
+.container-body>ul{
+ list-style: none;
+ padding-left: 0;
+}
+
+.container-body>ul>li>p{
+   
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+color: #333333;
+   }
+.bold{
+    font-weight: bold;
+}
+.container-body>h3{
+font-family: Playfair Display;
+font-style: italic;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+color: #333333;
+margin:40px 0;
+}
