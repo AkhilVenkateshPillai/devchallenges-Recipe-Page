@@ -14,7 +14,7 @@
     margin: auto;
 }
 
-.container-header>h1{
+.container-header>.header-title{
 font-family: Playfair Display;
 font-style: normal;
 font-weight: bold;
@@ -24,6 +24,9 @@ margin: 0;
 width: 100%;
 max-width: 100%;
 }
+
+
+
 
 .container-header>.header-encloser>p{
 font-family: Montserrat;
@@ -43,7 +46,9 @@ width: 60%;
 
 .container-header>.header-encloser>.header-img-1{
     margin: 10px;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    height: 10px;
+    max-width: 100%;
 }
 .container-header>.header-img-2{
 width: 100%;
@@ -72,12 +77,8 @@ color: #333333;
  padding-left: 0;
 }
 
-.container-body>ul>li>p{
-  
-    margin: 0 10px;
-   }
 
-li{margin:20px 0; display: flex;}
+li{display: flex;}
 
 
 .container-body>ul>li>p{
@@ -88,7 +89,19 @@ font-weight: normal;
 font-size: 16px;
 line-height: 25px;
 color: #333333;
+margin: 10px 15px;
    }
+
+   .container-body>ol>li>p{
+   
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #333333;
+    margin: 10px 3px;
+       }
 
 .bold{
     font-weight: bold;
@@ -97,6 +110,11 @@ color: #333333;
 .italic{
     font-style:italic ;
 }
+
+.rect{
+    font-size: 30px;
+}
+
 .container-body>h3{
 font-family: Playfair Display;
 font-style: italic;
