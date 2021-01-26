@@ -169,7 +169,8 @@ color: #333333;
 }
 
 
-li{display: flex;width: 80%;}
+li{display: flex;
+    width: 80%;}
 
 ol {
     padding: 0;
