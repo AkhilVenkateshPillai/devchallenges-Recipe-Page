@@ -100,6 +100,7 @@ max-width: 100%;
 
 .sidebar-one>span{
     margin-left: 10px;
+
 }
 
 .sidebar-two>div>span{
@@ -202,8 +203,11 @@ font-weight: normal;
 font-size: 16px;
 line-height: 25px;
 color: #333333;
-margin: 10px 15px;
+margin: 0 15px;
    }
+   .container-body>ul>li{
+     margin: 15px 0 ;
+   }   
 
    .container-body>ol>li>p{
    
@@ -229,7 +233,12 @@ margin: 10px 15px;
 }
 
 .rect{
+    border-radius: 30px;
+    height: 26px;
     font-size: 30px;
+    transform: scale(1.5);
+
+   
 }
 
 .container-body>h3{
@@ -242,10 +251,44 @@ color: #333333;
 margin:40px 0;
 }
 
+.source{
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #BDBDBD;
+}
+
+footer{
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A9A9A9;
+    margin-top:100px;
+    margin-bottom: 17px;
+}
+
 @media screen and (max-width:900px){
+
+    .container-header>.header-title{
+        font-size: 30px;
+    }
     .container-header{
        margin-right: 25px;
     }
+
+    .container-body>ol>li{
+        width: 100%;
+    }
+
+    .container-body>ul>li{
+        width: 100%;
+    }
+    
     .container-sidebar{
           float: none;
           width: 100%;
