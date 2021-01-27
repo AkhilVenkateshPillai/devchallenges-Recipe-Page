@@ -234,7 +234,7 @@ margin: 0 15px;
 }
 
 .rect{
-    
+
      width: 19.5px;
      height: 28px;
      transform: scale(1.5); 
@@ -272,6 +272,21 @@ footer{
 }
 
 @media screen and (max-width:900px){
+
+
+    .rect{
+    
+        width: 29.5px;
+        height: 28px;
+        transform: scale(1.5); 
+   }
+
+   .container-body>ul>li>p{
+    width: 80%;
+}
+.container-body>ol>li{
+    width: 80%;
+}
 
     .container-header>.header-title{
         font-size: 30px;
