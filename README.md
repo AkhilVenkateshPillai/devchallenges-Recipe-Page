@@ -27,11 +27,11 @@
 ## Table of Contents
 
 - [Overview](#overview)
-  - [Built With](#built-with)
+- [Built With](#built-with)
 - [Features](#features)
 - [How to use](#how-to-use)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+
 
 <!-- OVERVIEW -->
 
@@ -55,8 +55,8 @@ This page was created for the fourth devchallenge, written purely in HTML/CSS.
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps) was to build an application to complete the following user stories:
 
 - [x] User story: I can see a recipe with ingredients and instructions
-- [ ] User story: I can select a checkbox if I have the ingredients
-- [ ] User story: I can see number of servings, baking times
+- [x] User story: I can select a checkbox if I have the ingredients
+- [x] User story: I can see number of servings, baking times
 
 ## How To Use
 
@@ -64,7 +64,10 @@ To clone and run this application, you'll just need [Git](https://git-scm.com). 
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/AkhilVenkateshPillai/devchallenges-Recipe-Page
+$ git clone https://github.com/AkhilVenkateshPillai/devchallenges-Recipe-Page 
+
+```
+
 
 ## Contact
 
