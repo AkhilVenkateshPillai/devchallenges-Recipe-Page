@@ -234,10 +234,10 @@ margin: 0 15px;
 }
 
 .rect{
-
-    transform: scale(1.5);
-
-   
+    
+     width: 19.5px;
+     height: 28px;
+     transform: scale(1.5); 
 }
 
 .container-body>h3{
